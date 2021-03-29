@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_password">Palavra-passe</string>
+    <string name="action_settings">Definições</string>
+    <string name="button_register">Registar-se</string>
+    <string name="closeDrawer">Fechar</string>
+    <string name="hint_email">Email</string>
+    <string name="menu_home">Início</string>
+    <string name="schedule_therapy">Calendario do terapeuta</string>
+    <string name="show_patient">Mostrar pacientes</string>
+    <string name="menu_map_patient">Localização dos pacientes</string>
+    <string name="nav_email_user">email do utilizador</string>
+    <string name="nav_name_user">Nome do utilizador</string>
+    <string name="openDrawer">Abrir</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="menu_make_appointment">Marcar consulta</string>
+    <string name="menu_profile_patient">Perfil do paciente</string>
+    <string name="menu_profile_therapist">Perfil do Terapeuta</string>
+    <string name="title_location">Localização dos Pacientes</string>
+    <string name="title_makeapp">Marcar consulta</string>
+    <string name="title_my_therapist">Meus terapeutas</string>
+    <string name="title_profile_patient">Perfil</string>
+    <string name="title_profile_therapist">Perfil</string>
+    <string name="title_shedule_therapist">Agenda do terapeuta</string>
+    <string name="menu_log_out">Terminar Sessão</string>
+    <string name="toast_success_log_out">Sessão terminada com sucesso!</string>
+    <string name="dialog_signing_in">A terminar sessão...</string>
+    <string name="textView_choose_profile_type">Escolha o seu Tipo de Perfil</string>
+
+    <string name="hint_current_password">Palavra-passe atual</string>
+    <string name="hint_new_password">Nova palavra-passe</string>
+    <string name="hint_confirm_new_password">Confirme nova palavra-passe</string>
+    <string name="button_save_changes">Guardar</string>
+    <string name="button_logIn">Iniciar Sessão</string>
+
+    <string name="hint_person_name">Nome</string>
+    <string name="hint_phone_number">Número de telemóvel</string>
+    <string name="hint_address">Morada</string>
+    <string name="hint_postal_code">Código Postal</string>
+    <string name="hint_city">Localidade</string>
+    <string name="button_new_paciente">Novo Paciente</string>
+    <string name="button_new_therapist">Novo Terapeuta</string>
+    <string name="title_pacient_registration">Novo Paciente</string>
+    <string name="title_therapist_registration">Novo Terapeuta</string>
+
+    //toasts
+    <string name="toast_enter_email">Insira um email.</string>
+    <string name="toast_enter_password">Insira uma password.</string>
+    <string name="toast_enter_phone_number">Insira um contacto telefónico.</string>
+    <string name="toast_enter_name">Insira um nome.</string>
+    <string name="toast_enter_postal_code">Insira um código-postal.</string>
+    <string name="toast_enter_city">Insira uma localidade.</string>
+    <string name="toast_enter_address">Insira uma morada.</string>
+    <string name="toast_success_log_in">Início de sessão com sucesso!</string>
+    <string name="toast_success_regist">Registado com sucesso!</string>
+    <string name="toast_error_missing_account">O email inserido não corresponde a nenhuma conta!</string>
+    <string name="toast_error_account_taken">O email inserido já está a ser utilizado por outra conta!</string>
+    <string name="toast_error_valid_email">Erro! Insira um email vválido!</string>
+    <string name="toast_error_stronger_password">Erro! Insira uma password mais forte!</string>
+    <string name="toast_error_wrong_password">Palavra-passe errada!</string>
+
+
+    //dialogs
+    <string name="dialog_login_in">A iniciar sessão...</string>
+    <string name="dialog_registering">A completar registo...</string>
+    <string name="menu_item_change_info">mudar as informações</string>
+    <string name="menu_item_change_password">mudar a palavra pass</string>
+    <string name="toast_enter_date">escolha uma data</string>
+    <string name="toast_enter_hour">escolha a hora</string>
+    <string name="name_therapist">Nome do terapeuta</string>
+    <string name="toast_save">Salvo com sucesso</string>
+    <string name="title_list_request_session">Lista de Pedidos</string>
+    <string name="toast_to_confirm">para confimar</string>
+    <string name="toast_incorrect_phonenuber">número de telefone incorreto</string>
+    <string name="toast_add_image">Adicionar imagem</string>
+    <string name="toast_select_file">Seleciona a imagem</string>
+    <string name="toast_date_appointment">Data da Consulta</string>
+    <string name="toast_patient">Nome do Paciente</string>
+    <string name="toast_not_plane">Nenhum evento planeado para esse dia</string>
+
+
+</resources>

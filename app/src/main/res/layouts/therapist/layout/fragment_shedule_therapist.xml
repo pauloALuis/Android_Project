@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+
+    >
+
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="573dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="-4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="#3E7EF1"
+        app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#1A2597"
+        app:compactCalendarMultiEventIndicatorColor="#fff"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="#fff"
+        app:compactCalendarTextSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<!--   -->
+    <TextView
+        android:id="@+id/TextViewDitals"
+        android:layout_width="326dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="45dp"
+        android:text="TextViewDitals"
+        android:textColor="@color/backgroundColor"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMonth"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:background="@color/primaryColor"
+        android:text="Mes"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

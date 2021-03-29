@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/backgroundColor"
+
+    tools:layout_editor_absoluteY="81dp"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonRegist"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_check"
+        android:text="@string/button_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUserRegistration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/title_pacient_registration"
+        android:textAlignment="center"
+        android:textColor="@color/TextColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="356dp"
+        android:layout_height="489dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="#2986D8"
+        app:cardCornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserRegistration"
+        app:layout_constraintVertical_bias="0.074">
+
+        <LinearLayout
+            android:layout_width="325dp"
+            android:layout_height="439dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/backgroundColor"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:hintAnimationEnabled="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="389dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:ems="10"
+                    android:hint="@string/hint_person_name"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/backgroundColor"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:hintAnimationEnabled="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/editTextPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint_phone_number"
+                    android:importantForAutofill="no"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/backgroundColor"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:hintAnimationEnabled="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/editTextAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint_address"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="103dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/backgroundColor"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="8"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                    app:hintAnimationEnabled="false"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/editTextPostalCode"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="@string/hint_postal_code"
+                        android:importantForAutofill="no"
+                        android:inputType="textPostalAddress"
+                        android:singleLine="true"
+                        android:textColor="@color/TextColor"
+                        android:textColorHint="@color/backgroundColor"
+                        tools:text="XXXX-000" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/backgroundColor"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                    app:hintAnimationEnabled="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <EditText
+                        android:id="@+id/editTextCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="@string/hint_city"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/backgroundColor"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:hintAnimationEnabled="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    tools:ignore="MissingConstraints"
+                    tools:targetApi="o" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/backgroundColor"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:hintAnimationEnabled="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    tools:targetApi="o" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

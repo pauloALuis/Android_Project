@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "653412919886",
+    "firebase_url": "https://easycare-ce666.firebaseio.com",
+    "project_id": "easycare-ce666",
+    "storage_bucket": "easycare-ce666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653412919886:android:78e7a59ead7e619087f11f",
+        "android_client_info": {
+          "package_name": "pt.ipbeja.estig.easycare2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653412919886-5vhck1706k56cfaoqpnb5cca9gpbickh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipbeja.estig.easycare2",
+            "certificate_hash": "26b7b28b2d9d01f06b35a56d6a3488476bf07b88"
+          }
+        },
+        {
+          "client_id": "653412919886-hiig392c6bahb5r8gqpt704il6rl5pm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipbeja.estig.easycare2",
+            "certificate_hash": "945db5831ac975909654317b9cf398f47f8f29ed"
+          }
+        },
+        {
+          "client_id": "653412919886-udcl5n84m4asoe67ubqejht07afcei51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANryQwjVLjTgswbndpkfejdfmXiULN_lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653412919886-udcl5n84m4asoe67ubqejht07afcei51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

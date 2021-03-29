@@ -1,0 +1,5 @@
+<root>
+    <item name='androidx.room.Entity'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

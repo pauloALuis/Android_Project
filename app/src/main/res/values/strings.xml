@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MENU: string  -->
+
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="app_name" translatable="false">Easy Care v2</string>
+
+
+    <!-- TODO: Remove -->
+
+    //item menu
+    <string name="menu_profile_therapist">Profile therapist</string>
+    <string name="menu_profile_patient">Profile patient</string>
+    <string name="menu_make_appointment">Make Appointment</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_map_patient">Patient Location</string>
+    <string name="menu_log_out">Log Out</string>
+
+
+
+    //str
+    <string name="schedule_therapy">Therapist schedule</string>
+    <string name="show_patient">Show patient</string>
+     <string name="nav_name_user">Name User</string>
+    <string name="nav_email_user">"email user "</string>
+
+    <string name="button_logIn">Log In</string>
+    <string name="button_register">Register</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_person_name">Name</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_postal_code">Postal Code</string>
+    <string name="hint_city">City</string>
+    <string name="button_new_paciente">Patient</string>
+    <string name="button_new_therapist">Therapist</string>
+    <string name="hint_current_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_new_password">Confirm new password</string>
+    <string name="button_save_changes">Save changes</string>
+    <string name="name_therapist">Name Therapist</string>
+
+
+
+    //titles
+    <string name="title_pacient_registration">Pacient Registration</string>
+    <string name="title_therapist_registration">Therapist Registration</string>
+    <string name="title_location">Location Patient</string>
+    <string name="title_login_pag" translatable="false">Login</string>
+    <string name="title_makeapp">Make appointment</string>
+    <string name="title_my_therapist">My Therapist</string>
+    <string name="title_profile_patient">Profile Patient</string>
+    <string name="title_profile_therapist">Profile Therapist</string>
+    <string name="title_shedule_therapist">Shedule therapist</string>
+    <string name="text_Home" translatable="false">Home</string>
+    <string name="textView_choose_profile_type">Choose your Profile Type</string>
+    <string name="title_list_request_session">Wish list</string>
+
+
+
+
+    //toasts
+    <string name="toast_enter_email">Please enter email.</string>
+    <string name="toast_enter_password">Please enter password.</string>
+    <string name="toast_enter_phone_number">Please enter phone number.</string>
+    <string name="toast_enter_name">Please enter name.</string>
+    <string name="toast_enter_postal_code">Please enter postal code.</string>
+    <string name="toast_enter_city">Please enter city.</string>
+    <string name="toast_enter_address">Please enter address.</string>
+    <string name="toast_success_log_in">Logged in successfully!</string>
+    <string name="toast_success_regist">Registration completed successfully!</string>
+    <string name="toast_success_log_out">Successfully Logged Out!</string>
+    <string name="toast_error_wrong_password">Wrong password!</string>
+    <string name="toast_error_missing_account">The email entered doesn\'t belong to an account!</string>
+    <string name="toast_error_account_taken">Registration failed! That email already belongs to an account!</string>
+    <string name="toast_error_valid_email">Registration failed! Please enter a valid email!</string>
+    <string name="toast_error_stronger_password">Registration failed! Choose a stronger password!</string>
+    <string name="toast_enter_hour">please mark the hours!</string>
+    <string name="toast_enter_date">Name Therapist</string>
+    <string name="toast_save">successfully saved</string>
+    <string name="toast_to_confirm"> to confirm</string>
+    <string name="toast_incorrect_phonenuber">Phone number incorrect </string>
+    <string name="toast_add_image">Add image </string>
+    <string name="toast_select_file">Select File </string>
+    <string name="toast_patient">"Name Patient "</string>
+    <string name="toast_date_appointment">Consultation date </string>
+    <string name="toast_not_plane">"No Events Planned for that day" </string>
+
+
+
+
+
+
+
+
+
+    //dialogs
+    <string name="dialog_login_in">Login In...</string>
+    <string name="dialog_registering">Registering...</string>
+    <string name="dialog_signing_in">Signing out...</string>
+
+
+    //google string
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBKBfjnCYwb2dB3MlQaPJGpZ_rifc0qSJI</string>
+
+    <string name="menu_item_change_password">Change Password</string>
+    <string name="menu_item_change_info">Change info</string>
+</resources>
